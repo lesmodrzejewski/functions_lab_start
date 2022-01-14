@@ -40,27 +40,27 @@ class TestPythonFunctionPractice(unittest.TestCase):
       self.assertEqual( 3, add_result )
 
   def test_number_to_full_name__month_1(self):
-      result = number_to_full_name__month_1( 1 )
+      result = number_to_full_name__month( 1 )
       self.assertEqual( "January", result )
 
   def test_number_to_full_name__month_3(self):
-      result = number_to_full_name__month_3( 3 )
+      result = number_to_full_name__month( 3 )
       self.assertEqual( "March", result )
 
   def test_number_to_full_name__month_9(self):
-      result = number_to_full_month_name( 9 )
+      result = number_to_full_name__month( 9 )
       self.assertEqual( "September", result )
 
   def test_number_to_short_month_name__month_1(self):
-      first_month_string = number_to_short_month_name__month_1( 1 )
+      first_month_string = number_to_short_month_name__month( 1 )
       self.assertEqual( "Jan", first_month_string )
 
   def test_number_to_short_month_name__month_4(self):
-      fourth_month_string = number_to_short_month_name__month_4( 4 )
+      fourth_month_string = number_to_short_month_name__month( 4 )
       self.assertEqual( "Apr", fourth_month_string )
 
   def test_number_to_short_month_name__month_10(self):
-      tenth_month_string = number_to_short_month_name__month_10( 10 )
+      tenth_month_string = number_to_short_month_name__month( 10 )
       self.assertEqual( "Oct", tenth_month_string )
 
   #Further
